@@ -73,7 +73,7 @@ _Note_ : It a new version.
 
 ## Example Usage
 
-You can use tools like Postman to test the API endpoints. Alternatively, you can run the provided `test.py` script, which sends requests to the Flask app.
+You can use tools like Postman to test the API endpoints. Alternatively, you can run the provided `demo.py` script, which sends requests to the Flask app.
 
 ```python
 import requests
