@@ -15,7 +15,8 @@ _Note_ : It a new version.
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/junaidcodingmaster/PRO-C142
+   cd PRO-142
    ```
 
 2. Create and activate a new virtual environment:
@@ -26,10 +27,10 @@ _Note_ : It a new version.
    venv\Scripts\activate  # Windows
    ```
 
-3. Install the required dependencies:
+3. Install dependencies:
 
    ```bash
-   pip install flask requests
+   pip install -r requirements.txt
    ```
 
 ## Usage
@@ -37,13 +38,13 @@ _Note_ : It a new version.
 1. Run the Flask application:
 
    ```bash
-   python main.py
+   python app.py
    ```
 
 2. Open another terminal and run the test script:
 
    ```bash
-   python test.py
+   python demo.py
    ```
 
    The test script will send requests to the Flask app to retrieve and interact with the articles.
